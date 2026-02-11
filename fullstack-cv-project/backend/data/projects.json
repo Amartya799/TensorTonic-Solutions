@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "dd547104-bb5e-4092-9fe8-8b13d3e47df0",
+      "title": "Smart Expense Tracker",
+      "summary": "Tracks income/expenses and renders spending insights dashboards.",
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "impact": "Reduced monthly budgeting time by 40% in pilot usage.",
+      "status": "completed",
+      "createdAt": "2026-02-11T19:30:25.954Z"
+    },
+    {
+      "id": "fb308f73-24d1-407d-8566-048d65dcedb6",
+      "title": "AI FAQ Assistant",
+      "summary": "Semantic search chatbot for product documentation.",
+      "stack": [
+        "Next.js",
+        "FastAPI",
+        "OpenAI API"
+      ],
+      "impact": "Cut support tickets by 22% after launch.",
+      "status": "in-progress",
+      "createdAt": "2026-02-11T19:30:25.954Z"
+    },
+    {
+      "id": "ca22047b-918f-490b-9572-229f885e5060",
+      "title": "Graph Visualizer",
+      "summary": "A graph modeling tool for network topology experiments.",
+      "stack": [
+        "Svelte",
+        "Node.js",
+        "D3"
+      ],
+      "impact": "Enabled faster debugging of network dependencies.",
+      "status": "completed",
+      "createdAt": "2026-02-11T19:30:26.054Z"
+    },
+    {
+      "id": "40606a81-d7ea-4c53-86c1-4fcfb8502f2a",
+      "title": "Distributed Job Queue",
+      "summary": "Built a robust queue system to process thousands of async jobs with retries and alerts.",
+      "stack": [
+        "Node.js",
+        "RabbitMQ",
+        "PostgreSQL"
+      ],
+      "impact": "Cut failed processing events by 55%.",
+      "status": "completed",
+      "createdAt": "2026-02-11T19:30:36.826Z"
+    }
+  ]
+}

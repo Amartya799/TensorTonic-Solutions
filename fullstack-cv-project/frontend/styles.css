@@ -1,0 +1,64 @@
+:root {
+  --bg: #0b1220;
+  --card: #111a2b;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: radial-gradient(circle at top right, #1e293b, var(--bg));
+  color: var(--text);
+}
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; }
+.card {
+  background: color-mix(in oklab, var(--card), black 8%);
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+form { display: grid; gap: 0.8rem; }
+label { display: grid; gap: 0.35rem; color: var(--muted); }
+input, textarea, select, button {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: var(--text);
+}
+button {
+  background: linear-gradient(135deg, #0ea5e9, #2563eb);
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+#projects-list { list-style: none; padding: 0; margin: 0.75rem 0 0; display: grid; gap: 0.75rem; }
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 0.85rem;
+}
+.title { margin: 0; }
+.summary, .stack, .impact { margin: 0.2rem 0; color: var(--muted); }
+.status-pill {
+  font-size: 0.8rem;
+  border: 1px solid #334155;
+  border-radius: 999px;
+  padding: 0.3rem 0.55rem;
+  text-transform: capitalize;
+}
+.actions { min-width: 140px; display: grid; align-content: start; gap: 0.45rem; }
+.empty { color: var(--muted); text-align: center; padding: 1rem; }

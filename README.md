@@ -1,11 +1,16 @@
-# TensorTonic Solutions
+# TensorTonic Solutions + Portfolio Projects
 
-Welcome to my TensorTonic solutions repository!
+This repository contains:
 
-Here you'll find my solutions to various machine learning and deep learning problems from [TensorTonic](https://tensortonic.com).
+1. My TensorTonic machine learning practice work.
+2. A full-stack portfolio project I can showcase on my CV.
 
-## What is TensorTonic?
+## Included full-stack project
+### CareerForge
+A complete full-stack app to create and manage CV-ready project case studies.
 
-TensorTonic is a platform where you can implement core algorithms of Machine Learning from scratch.
+- Path: `fullstack-cv-project/`
+- Stack: Node.js + HTML/CSS/JavaScript
+- Includes: REST API, validation, persistence, and tests
 
-This repository contains my personal solutions to these problems, automatically synchronized from the platform.
+See `fullstack-cv-project/README.md` for setup and usage.
